@@ -1,0 +1,17 @@
+
+> gratitude-builds-portfolio@1.0.0 dev
+> next dev --hostname 127.0.0.1
+
+▲ Next.js 16.3.0 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+✓ Ready in 745ms
+✓ Running next.config.ts took 65ms
+Creating turbopack project {
+  dir: 'C:\\Users\\hp\\OneDrive\\Desktop\\GratitudeBuilds',
+  testMode: true
+}
+
+✓ Generated AGENTS.md and CLAUDE.md for AI agents. Set `agentRules: false` in next.config to disable.
+○ Compiling / ...
+ GET / 200 in 1345ms (next.js: 723ms, application-code: 623ms)

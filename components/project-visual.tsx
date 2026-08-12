@@ -3,24 +3,24 @@ import Image from "next/image";
 const visuals = {
   study: {
     name: "JabuStudy",
-    primary: "/products/jabustudy-admin.jpg",
-    secondary: "/products/jabustudy-exam.jpg",
+    primary: "/products/approved/jabustudy-approved-crop.png",
+    secondary: "/products/approved/jabustudy-approved-full.png",
     primaryAlt: "JabuStudy student dashboard",
-    secondaryAlt: "JabuStudy practice and explanation interface",
+    secondaryAlt: "Full JabuStudy student dashboard",
   },
   ideas: {
     name: "Indegenius",
-    primary: "/products/indegenius-landing.png",
-    secondary: "/products/indegenius-feed.jpg",
+    primary: "/products/approved/indegenius-approved-landing.png",
+    secondary: "/products/approved/indegenius-approved-feed.png",
     primaryAlt: "Indegenius public landing page",
     secondaryAlt: "Indegenius intellectual social feed",
   },
   market: {
     name: "JabuMarket",
-    primary: "/products/jabumarket-live.png",
-    secondary: "/products/jabumarket-explore.png",
+    primary: "/products/approved/jabumarket-approved-crop.png",
+    secondary: "/products/approved/jabumarket-approved-full.png",
     primaryAlt: "JabuMarket campus marketplace dashboard",
-    secondaryAlt: "JabuMarket browse listings interface",
+    secondaryAlt: "Full JabuMarket campus marketplace home screen",
   },
 } as const;
 

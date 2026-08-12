@@ -55,10 +55,10 @@ const worldConfig: Record<string, WorldConfig> = {
     statement: "Making exam preparation feel less uncertain.",
     supporting:
       "A focused study system that brings materials, practice, progress, and AI-assisted explanations into one clear rhythm.",
-    primaryImage: "/products/jabustudy-admin.jpg",
+    primaryImage: "/products/approved/jabustudy-approved-crop.png",
     primaryAlt: "JabuStudy student dashboard showing practice tools and course materials",
-    secondaryImage: "/products/jabustudy-exam.jpg",
-    secondaryAlt: "JabuStudy practice review with an answer, explanation, and study guidance",
+    secondaryImage: "/products/approved/jabustudy-approved-full.png",
+    secondaryAlt: "Full JabuStudy student dashboard with study tools, performance, and courses",
     proof: "1,500+",
     proofLabel: "students already using it",
     externalLabel: "Use JabuStudy",
@@ -69,10 +69,10 @@ const worldConfig: Record<string, WorldConfig> = {
     statement: "Building the digital economy of one campus.",
     supporting:
       "A campus-first marketplace where students can discover listings, food, vendors, services, and delivery in one local product.",
-    primaryImage: "/products/jabumarket-live.png",
+    primaryImage: "/products/approved/jabumarket-approved-crop.png",
     primaryAlt: "JabuMarket home screen with listings, food vendors, and quick access categories",
-    secondaryImage: "/products/jabumarket-explore.png",
-    secondaryAlt: "JabuMarket explore screen for products, vendors, food, and delivery",
+    secondaryImage: "/products/approved/jabumarket-approved-full.png",
+    secondaryAlt: "Full JabuMarket home screen with listings, food vendors, and campus services",
     proof: "Pre-launch",
     proofLabel: "being prepared for campus",
     externalLabel: "Preview JabuMarket",
@@ -83,9 +83,9 @@ const worldConfig: Record<string, WorldConfig> = {
     statement: "Giving African student ideas somewhere serious to live.",
     supporting:
       "An intellectual social network designed for publishing, reading, debate, research, and thoughtful participation.",
-    primaryImage: "/products/indegenius-landing.png",
+    primaryImage: "/products/approved/indegenius-approved-landing.png",
     primaryAlt: "Indegenius landing page inviting students to read and publish ideas",
-    secondaryImage: "/products/indegenius-feed.jpg",
+    secondaryImage: "/products/approved/indegenius-approved-feed.png",
     secondaryAlt: "Indegenius social feed with articles, debates, and writing tools",
     proof: "300+",
     proofLabel: "active members growing ideas",
@@ -261,7 +261,7 @@ export default function HomePage() {
               <span>JabuStudy</span>
               <figure>
                 <Image
-                  src="/products/jabustudy-admin.jpg"
+                  src="/products/approved/jabustudy-approved-crop.png"
                   alt=""
                   fill
                   priority
@@ -273,7 +273,7 @@ export default function HomePage() {
               <span>JabuMarket</span>
               <figure>
                 <Image
-                  src="/products/jabumarket-live.png"
+                  src="/products/approved/jabumarket-approved-crop.png"
                   alt=""
                   fill
                   sizes="(max-width: 760px) 34vw, 12vw"
@@ -284,7 +284,7 @@ export default function HomePage() {
               <span>Indegenius</span>
               <figure>
                 <Image
-                  src="/products/indegenius-feed.jpg"
+                  src="/products/approved/indegenius-approved-feed.png"
                   alt=""
                   fill
                   sizes="(max-width: 760px) 54vw, 19vw"
