@@ -2435,16 +2435,31 @@ button {
   transform: rotate(-2deg);
 }
 
+.v2-builder__portrait::before {
+  position: absolute;
+  z-index: 4;
+  top: -0.55rem;
+  left: 50%;
+  width: 7.5rem;
+  height: 1.4rem;
+  border: 1px solid rgba(43, 20, 7, 0.16);
+  background: rgba(255, 236, 198, 0.9);
+  box-shadow: 0 2px 5px rgba(43, 20, 7, 0.12);
+  content: "";
+  pointer-events: none;
+  transform: translateX(-50%) rotate(2deg);
+}
+
 .v2-builder__portrait-frame {
   position: relative;
-  aspect-ratio: 0.84;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
   background: var(--v2-peach);
 }
 
 .v2-builder__portrait-frame img {
   object-fit: cover;
-  object-position: center 18%;
+  object-position: center;
 }
 
 .v2-builder__portrait-caption {

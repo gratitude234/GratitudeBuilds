@@ -373,13 +373,13 @@ export default function HomePage() {
           <Reveal className="v2-builder__portrait">
             <div className="v2-builder__portrait-frame">
               <Image
-                src="/brand/gratitude-portrait.jpg"
-                alt="Portrait of Gratitude Olanibi seated in a red chair"
+                src="/brand/gratitude-behind-the-screen.jpg"
+                alt="Gratitude Olanibi working on his laptop"
                 fill
                 sizes="(max-width: 800px) 92vw, 45vw"
               />
             </div>
-            <span className="v2-builder__portrait-caption">Usually behind the screen. Always inside the build.</span>
+            <span className="v2-builder__portrait-caption">Behind the screen / Where most builds begin</span>
             <GrowthBars />
           </Reveal>
 
