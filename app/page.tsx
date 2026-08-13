@@ -55,8 +55,8 @@ const worldConfig: Record<string, WorldConfig> = {
     statement: "Making exam preparation feel less uncertain.",
     supporting:
       "A focused study system that brings materials, practice, progress, and AI-assisted explanations into one clear rhythm.",
-    primaryImage: "/products/approved/jabustudy-approved-crop.png",
-    primaryAlt: "JabuStudy student dashboard showing practice tools and course materials",
+    primaryImage: "/products/approved/jabustudy-approved-mobile.png",
+    primaryAlt: "JabuStudy mobile dashboard showing practice tools and course materials",
     secondaryImage: "/products/approved/jabustudy-approved-full.png",
     secondaryAlt: "Full JabuStudy student dashboard with study tools, performance, and courses",
     proof: "1,500+",
@@ -69,8 +69,8 @@ const worldConfig: Record<string, WorldConfig> = {
     statement: "Building the digital economy of one campus.",
     supporting:
       "A campus-first marketplace where students can discover listings, food, vendors, services, and delivery in one local product.",
-    primaryImage: "/products/approved/jabumarket-approved-crop.png",
-    primaryAlt: "JabuMarket home screen with listings, food vendors, and quick access categories",
+    primaryImage: "/products/approved/jabumarket-approved-mobile.png",
+    primaryAlt: "JabuMarket mobile home screen with campus listings and quick access categories",
     secondaryImage: "/products/approved/jabumarket-approved-full.png",
     secondaryAlt: "Full JabuMarket home screen with listings, food vendors, and campus services",
     proof: "Pre-launch",
@@ -85,8 +85,8 @@ const worldConfig: Record<string, WorldConfig> = {
       "An intellectual social network designed for publishing, reading, debate, research, and thoughtful participation.",
     primaryImage: "/products/approved/indegenius-approved-landing.png",
     primaryAlt: "Indegenius landing page inviting students to read and publish ideas",
-    secondaryImage: "/products/approved/indegenius-approved-feed.png",
-    secondaryAlt: "Indegenius social feed with articles, debates, and writing tools",
+    secondaryImage: "/products/approved/indegenius-approved-mobile.png",
+    secondaryAlt: "Indegenius mobile landing page inviting students to read and publish ideas",
     proof: "300+",
     proofLabel: "active members growing ideas",
     externalLabel: "Explore Indegenius",
@@ -261,7 +261,7 @@ export default function HomePage() {
               <span>JabuStudy</span>
               <figure>
                 <Image
-                  src="/products/approved/jabustudy-approved-crop.png"
+                  src="/products/approved/jabustudy-approved-mobile.png"
                   alt=""
                   fill
                   priority
@@ -273,7 +273,7 @@ export default function HomePage() {
               <span>JabuMarket</span>
               <figure>
                 <Image
-                  src="/products/approved/jabumarket-approved-crop.png"
+                  src="/products/approved/jabumarket-approved-mobile.png"
                   alt=""
                   fill
                   sizes="(max-width: 760px) 34vw, 12vw"
@@ -284,7 +284,7 @@ export default function HomePage() {
               <span>Indegenius</span>
               <figure>
                 <Image
-                  src="/products/approved/indegenius-approved-feed.png"
+                  src="/products/approved/indegenius-approved-mobile.png"
                   alt=""
                   fill
                   sizes="(max-width: 760px) 54vw, 19vw"
